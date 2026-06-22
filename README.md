@@ -13,10 +13,8 @@ Day 1 - 21 June 2026
 -Built a calculator
 -Uploaded files to GitHub
 
-Day 1 progress update
 
 Day 2 - 22 June 2026
-
 -Learned float()
 - Practiced user input and variables
 - Built rectangle area calculator
