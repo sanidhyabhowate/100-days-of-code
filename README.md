@@ -15,8 +15,14 @@ Day 1 - 21 June 2026
 
 Day 1 progress update
 
-Day 2
-- Learned float()
-- Built rectangle area calculator
-- Built temperature converter
-- Practiced user input and variables
+Day 2 - 22 June 2026
+
+* Learned float()
+* Practiced user input and variables
+* Built rectangle area calculator
+* Built temperature converter
+* Learned if-else statements
+* Built voting eligibility checker
+* Built even-odd checker
+
+* Update README with Day 2 progress
