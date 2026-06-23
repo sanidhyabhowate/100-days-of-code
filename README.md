@@ -2,20 +2,20 @@
 Starting my coding journey
 
 Day 1 - 21 June 2026
--Created GitHub account
--Created first repository
--Installed VS Code
--Learned basic Python syntax
--Learned print()
--Learned input()
--Created Day1.py
--Created age.py
--Built a calculator
--Uploaded files to GitHub
+- Created GitHub account
+- Created first repository
+- Installed VS Code
+- Learned basic Python syntax
+- Learned print()
+- Learned input()
+- Created Day1.py
+- Created age.py
+- Built a calculator
+- Uploaded files to GitHub
 
 
 Day 2 - 22 June 2026
--Learned float()
+- Learned float()
 - Practiced user input and variables
 - Built rectangle area calculator
 - Built temperature converter
