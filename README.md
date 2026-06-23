@@ -26,3 +26,16 @@ Day 2 - 22 June 2026
 - Learned comparison operators and indentation
 
 
+  Day 3 - 23 June 2026
+
+- Learned for loops
+- Learned range()
+- Solved HackerRank Loops challenge
+- Built count down program
+- Built sum 1 to 10 program
+- Built multiplication table program
+- Built table of any number program
+- Updated Python notes
+- Practiced Git and GitHub workflow
+
+
