@@ -39,3 +39,15 @@ Day 2 - 22 June 2026
 - Practiced Git and GitHub workflow
 
 
+Day 4 - 24 June 2026
+
+* Revised if-elif-else statements
+* Updated grade_checker.py with proper grade conditions
+* Practiced running the correct Python file from terminal
+* Learned about GitHub push rejection and remote changes
+* Used git pull --rebase before pushing
+* Updated README.md
+* Practiced Git and GitHub workflow
+
+
+
