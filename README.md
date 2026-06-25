@@ -50,4 +50,14 @@ Day 4 - 24 June 2026
 * Practiced Git and GitHub workflow
 
 
+Day 5 - 25 June 2026
+
+- Revised previous Python files
+- Improved number_guessing_game.py
+- Added 5 chances limit
+- Added high and low hints
+- Practiced for loop with range()
+- Practiced debugging NameError
+- Focused on understanding old code
+
 
