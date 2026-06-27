@@ -127,6 +127,22 @@ means compare two values.
 %   Remainder
 
 
+#Loops
+Used to repeat code.
+
+for i in range(5):
+    print(i)
+
+    range(5)
+→ 0,1,2,3,4
+
+range(1,11)
+→ 1 to 10
+
+range(2,21,2)
+→ Even numbers
+
+
 
 
 
