@@ -59,3 +59,25 @@ Day 5 - 25 June 2026
 * Practiced debugging NameError
 * Fixed GitHub push rejection with guidance
 * Focused on understanding old code
+
+
+  Day 6 - 27 June 2026
+
+* Learned Python lists
+* Created lists_practice.py
+* Learned how to store multiple values in a list
+* Learned how to access first item using index 0
+* Learned how to access last item using index -1
+* Learned append() to add new items
+* Practiced for loop with lists
+* Practiced running Python file from correct folder in VS Code terminal
+
+Day 7 - 27 June 2026
+
+* Learned basic error handling in Python
+* Created error_practice.py
+* Learned try and except
+* Learned ValueError
+* Practiced handling wrong input without crashing the program
+* Tested program with number input and text input
+
