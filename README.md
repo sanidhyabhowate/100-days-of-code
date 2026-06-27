@@ -61,7 +61,7 @@ Day 5 - 25 June 2026
 * Focused on understanding old code
 
 
-  Day 6 - 27 June 2026
+Day 6 - 26 June 2026
 
 * Learned Python lists
 * Created lists_practice.py
