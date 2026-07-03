@@ -71,6 +71,7 @@ Day 6 - 26 June 2026
 * Learned append() to add new items
 * Practiced for loop with lists
 * Practiced running Python file from correct folder in VS Code terminal
+  
 
 Day 7 - 27 June 2026
 
@@ -80,4 +81,21 @@ Day 7 - 27 June 2026
 * Learned ValueError
 * Practiced handling wrong input without crashing the program
 * Tested program with number input and text input
+  
+
+Break - 28 June 2026 to 2 July 2026
+
+Took a short planned break from coding to reset my routine.
+Did not start any new Python topic during this period.
+Used the time to plan the next phase of learning and decided to revise previous concepts before moving ahead.
+
+
+Day 8 - 3 July 2026
+
+* Revised previous Python files
+* Reviewed input(), int(), float(), and if-elif-else
+* Tested old files again in VS Code
+* Focused on understanding previous code properly before moving to new topics
+
+
 
