@@ -97,5 +97,22 @@ Day 8 - 3 July 2026
 * Tested old files again in VS Code
 * Focused on understanding previous code properly before moving to new topics
 
+Break - 4 July 2026 to 5 July 2026
+
+
+
+Day 9 - 6 July 2026
+
+* Revised previous Python concepts
+* Updated Python notes with while loop
+* Created while_loop_practice.py
+* Learned how while loop repeats code until a condition becomes false
+* Improved number_guessing_game.py
+* Added while loop with 5 chances
+* Added high and low hints
+* Added try-except to handle wrong input
+* Practiced debugging and running Python files from VS Code terminal
+
+
 
 
