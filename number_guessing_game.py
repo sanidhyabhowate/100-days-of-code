@@ -1,25 +1,35 @@
-number = 17 
+# Day 9 - Improved Number Guessing Game
 
-for chance in range(1, 6):
-    guess = int(input("Enter your guess between 1 and 20: "))
+number = 17
+chances = 5
 
-    if guess == number:
-        print("Congratulations! You guessed the correct number. ")
-        break
-    
-    else:
-        print("Sorry! You guessed the wrong number. ")
+while chances > 0:
+    try:
+        guess = int(input("Enter your guess between 1 and 20: "))
 
-        if guess < number:
-            print("Your guess is low")
-
-        if guess > number:
-            print("Your guess is high")
-
-        if guess == number - 1 or guess == number + 1:
-            print("Quite close! Try again. ")
+        if guess == number:
+            print("Congratulations! You guessed the correct number.")
+            break
 
         else:
-            print("Game over")
+            print("Sorry! You guessed the wrong number.")
+
+            if guess < number:
+                print("Your guess is low.")
+
+            elif guess > number:
+                print("Your guess is high.")
+
+            if guess == number - 1 or guess == number + 1:
+                print("Quite close! Try again.")
+
+            chances = chances - 1
+            print("Chances left:", chances)
+
+    except ValueError:
+        print("Invalid input! Please enter a number.")
+
+else:
+    print("Game over. The correct number was", number)
 
 

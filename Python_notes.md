@@ -143,7 +143,72 @@ range(2,21,2)
 → Even numbers
 
 
+#While Loops
+A while loop is used to repeat code until a condition becomes false.
+
+Example:
+count = 1
+
+while count <= 5:
+    print(count)
+    count = count + 1
+
+Output:
+1
+2
+3
+4
+5
+
+IMPORTANT:
+In a whileloop,we must update the variable inside the loop.
+
+Example:
+count = count + 1
+
+If we di not update the variable, the loop may never stop.
+
+This is called an infinite loop.
+
+#for loop vs while loop
+
+for loop:
+Used when we know how many times we want to repeat.
+
+Example:
+fir i in range(5):
+    print(i)
+
+while loop:
+Used when we want to repeat until a condition becomes false.
+
+Example:
+password = ""
+
+While password != "python":
+    password = input("Enter password: ")
+
+print("Access granted")
+
+Here,the program keeps asking for password until the user enters python.
 
 
+#While Loops With Chances
+Example:
+chances = 5
 
+while chances > 0:
+    guess = input("Enter your guess:")
+    chances = chances - 1
+
+print("Game over")
+
+Here:
+chances = 5 at start
+
+Every time the loop runs:
+chances = chances - 1
+so chances reduce by one.
+
+When chances become 0,the loop stops
 
