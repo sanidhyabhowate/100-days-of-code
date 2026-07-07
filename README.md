@@ -100,7 +100,6 @@ Day 8 - 3 July 2026
 Break - 4 July 2026 to 5 July 2026
 
 
-
 Day 9 - 6 July 2026
 
 * Revised previous Python concepts
@@ -112,6 +111,22 @@ Day 9 - 6 July 2026
 * Added high and low hints
 * Added try-except to handle wrong input
 * Practiced debugging and running Python files from VS Code terminal
+
+
+Day 10 - 7 July 2026
+
+* Practiced while loop with lists
+* Created shopping_list.py
+* Built a menu-based shopping list manager
+* Used append() to add items
+* Used len() to check empty list
+* Used for loop to view list items
+* Used try-except to handle wrong input
+* Exit option working using break
+* Remove item feature kept as bonus
+
+ 
+
 
 
 
