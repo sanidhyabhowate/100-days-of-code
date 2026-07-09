@@ -97,6 +97,7 @@ Day 8 - 3 July 2026
 * Tested old files again in VS Code
 * Focused on understanding previous code properly before moving to new topics
 
+
 Break - 4 July 2026 to 5 July 2026
 
 
@@ -124,6 +125,29 @@ Day 10 - 7 July 2026
 * Used try-except to handle wrong input
 * Exit option working using break
 * Remove item feature kept as bonus
+
+
+Day 11 - 8 July 2026
+
+* Did light coding work due to a busy day
+* Reviewed calculator.py
+* Added and reviewed comments in the file
+* Practiced Git status, add, commit, and push workflow
+* Faced GitHub push rejection because remote had new changes
+* Learned that git pull --rebase origin main is used before pushing when remote has changes
+* Synced local repository with GitHub
+
+
+Day 12 - 9 July 2026
+
+* Revised number_guessing_game.py
+* Refactored number guessing game using functions
+* Created get_guess() function for taking valid input
+* Created give_hint() function for high and low hints
+* Created play_game() function to control the full game
+* Used random.randint() to generate a random number
+* Practiced input validation using try-except
+* Tested the program successfully in VS Code terminal
 
  
 
