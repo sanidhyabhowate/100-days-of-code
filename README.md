@@ -149,6 +149,7 @@ Day 12 - 9 July 2026
 * Practiced input validation using try-except
 * Tested the program successfully in VS Code terminal
 
+<<<<<<< HEAD
 
 Day 13 - 10 July 2026
 
@@ -206,6 +207,8 @@ Day 16 - 14 July 2026
 
 
 
+=======
+>>>>>>> b1d39f5 (Update README for Day 11 and Day 12)
  
 
 
