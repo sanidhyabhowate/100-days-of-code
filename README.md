@@ -149,6 +149,36 @@ Day 12 - 9 July 2026
 * Practiced input validation using try-except
 * Tested the program successfully in VS Code terminal
 
+
+Day 13 - 10 July 2026
+
+* Worked on improving GitHub profile presentation
+* Created a technology-themed GitHub banner
+* Used Python, Git, GitHub, and problem-solving as the main theme
+* Added the message “Turning Curiosity Into Code”
+* Focused on making the coding profile cleaner and more professional
+* Did not start a new Python topic
+
+
+Day 14 - 11 July 2026
+
+* Created expense_tracker.py
+* Built a menu-based expense tracker
+* Used a list to store expenses
+* Used dictionaries to store expense names and amounts
+* Used while True to keep the menu running
+* Used nested if-else statements
+* Used a for loop to display expenses
+* Calculated the total using +=
+* Formatted amounts using .2f
+* Practiced fixing indentation and syntax errors
+* Tested add expense, show expenses, show total, invalid choice, and exit options successfully
+
+
+
+
+
+
  
 
 
