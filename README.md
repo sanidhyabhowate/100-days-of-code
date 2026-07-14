@@ -175,6 +175,33 @@ Day 14 - 11 July 2026
 * Tested add expense, show expenses, show total, invalid choice, and exit options successfully
 
 
+Day 15 - 13 July 2026
+
+* Completed the first fortnightly Python quiz
+* Scored 10 out of 25 marks
+* Answered 7 out of 15 questions correctly
+* Reviewed mistakes related to float(input())
+* Revised even-odd conditions and if-else statements
+* Reviewed append() and Python lists
+* Revised for loops and range()
+* Reviewed basic Git and GitHub commands
+* Identified the topics that need more practice
+* Did not begin a new Python topic
+
+Day 16 - 14 July 2026
+
+* Created expense_entry.py
+* Asked the user for the expense name, category, and amount
+* Used float() to accept whole numbers and decimal amounts
+* Used try and except to handle invalid amount input
+* Handled ValueError without crashing the program
+* Displayed all entered expense details clearly
+* Tested the program using valid and invalid inputs
+* Fixed a print() syntax mistake
+* Practiced explaining the program logic in my own words
+
+
+
 
 
 
