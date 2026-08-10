@@ -188,6 +188,7 @@ Day 15 - 13 July 2026
 * Reviewed basic Git and GitHub commands
 * Identified the topics that need more practice
 * Did not begin a new Python topic
+  
 
 Day 16 - 14 July 2026
 
@@ -202,13 +203,19 @@ Day 16 - 14 July 2026
 * Practiced explaining the program logic in my own words
 
 
+ Day 17 - 10 August 2026
+* Restarted Python practice after a one-month break.
+* Practiced if/elif/else, for loops, range(), modulo, and basic problem solving.
+* Built small from-scratch exercises for age eligibility, multiplication tables, and even/odd + positive/negative/zero checking.
+* Focused on rebuilding coding recall and confidence without copying code.
 
 
 
 
 
-=======
->>>>>>> b1d39f5 (Update README for Day 11 and Day 12)
+
+
+
  
 
 
