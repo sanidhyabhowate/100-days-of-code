@@ -149,7 +149,6 @@ Day 12 - 9 July 2026
 * Practiced input validation using try-except
 * Tested the program successfully in VS Code terminal
 
-<<<<<<< HEAD
 
 Day 13 - 10 July 2026
 
@@ -204,10 +203,22 @@ Day 16 - 14 July 2026
 
 
  Day 17 - 10 August 2026
+ 
 * Restarted Python practice after a one-month break.
 * Practiced if/elif/else, for loops, range(), modulo, and basic problem solving.
 * Built small from-scratch exercises for age eligibility, multiplication tables, and even/odd + positive/negative/zero checking.
 * Focused on rebuilding coding recall and confidence without copying code.
+
+
+Day 18 - 11 August 2026
+
+*Learned how to create and call functions using def.
+*Practiced functions with parameters and multiple parameters.
+*Learned about local variables inside functions.
+*Learned how return sends a value back from a function.
+*Practiced the difference between print() and return.
+*Used if-else inside functions.
+*Built function exercises for squares, calculations, totals, discounts, and division-by-zero handling.
 
 
 
