@@ -212,13 +212,24 @@ Day 16 - 14 July 2026
 
 Day 18 - 11 August 2026
 
-*Learned how to create and call functions using def.
-*Practiced functions with parameters and multiple parameters.
-*Learned about local variables inside functions.
-*Learned how return sends a value back from a function.
-*Practiced the difference between print() and return.
-*Used if-else inside functions.
-*Built function exercises for squares, calculations, totals, discounts, and division-by-zero handling.
+* Learned how to create and call functions using def.
+* Practiced functions with parameters and multiple parameters.
+* Learned about local variables inside functions.
+* Learned how return sends a value back from a function.
+* Practiced the difference between print() and return.
+* Used if-else inside functions.
+* Built function exercises for squares, calculations, totals, discounts, and division-by-zero handling.
+
+
+Day 19 - 12 August 2026
+
+* Practiced using functions together with for loops.
+* Passed values from loops into function parameters.
+* Used return values inside repeated calculations.
+* Practiced functions with one and multiple parameters.
+* Built even/odd, square, larger-number and purchase-total exercises.
+* Learned how to keep a running total using +=.
+* Created a small Streamlit purchase calculator as bonus practice.
 
 
 
