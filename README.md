@@ -232,6 +232,18 @@ Day 19 - 12 August 2026
 * Created a small Streamlit purchase calculator as bonus practice.
 
 
+Day 20 - 13 August 2026
+
+* Built an order analyzer using a list of dictionaries.
+* Practiced functions for total order value, paid/pending counts, and revenue by status.
+* Added input normalization using `.strip().lower()`.
+* Added `try/except` validation so invalid amounts do not crash the program.
+* Built logic to find the largest order.
+* Learned basic CSV file handling with Python’s `csv` module.
+* Exported order data to `orders.csv` and opened it successfully in Excel.
+
+
+
 
 
 
