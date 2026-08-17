@@ -243,6 +243,18 @@ Day 20 - 13 August 2026
 * Exported order data to `orders.csv` and opened it successfully in Excel.
 
 
+Day 21 - 17 August 2026
+
+* Rebuilt CSV writing with Python for additional practice.
+* Learned to read CSV files back into Python using DictReader.
+* Converted CSV string values back to integers before calculations.
+* Practiced filtering loaded order data.
+* Made CSV save/load functions reusable using filename parameters.
+* Practiced handling missing files with FileNotFoundError.
+* Revised and expanded Python notes from recent lessons.
+* CSV is still a practice topic and not yet fully independent.
+
+
 
 
 
