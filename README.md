@@ -256,6 +256,23 @@ Day 21 - 17 August 2026
 
 
 
+26 October 2026 - Monday
+
+*Learned Python sets and how they store unique values
+*Learned to create an empty set using set()
+*Practiced using .add() to add elements to a set
+*Learned .remove() and .discard() methods
+*Learned how the in keyword checks whether an element exists
+*Created unique_categories.py
+*Used a for loop to extract categories from a list of dictionaries
+*Practiced accessing dictionary values using keys
+*Used a set to eliminate duplicate expense categories
+*Practiced removing an existing category using .discard()
+*Fixed spelling mistakes, incorrect dictionary keys and indentation errors
+*Tested the program successfully in VS Code
+*Revised functions, loops and dictionary concepts during coding practice
+
+
 
 
 
