@@ -258,19 +258,40 @@ Day 21 - 17 August 2026
 
 26 October 2026 - Monday
 
-*Learned Python sets and how they store unique values
-*Learned to create an empty set using set()
-*Practiced using .add() to add elements to a set
-*Learned .remove() and .discard() methods
-*Learned how the in keyword checks whether an element exists
-*Created unique_categories.py
-*Used a for loop to extract categories from a list of dictionaries
-*Practiced accessing dictionary values using keys
-*Used a set to eliminate duplicate expense categories
-*Practiced removing an existing category using .discard()
-*Fixed spelling mistakes, incorrect dictionary keys and indentation errors
-*Tested the program successfully in VS Code
-*Revised functions, loops and dictionary concepts during coding practice
+* Learned Python sets and how they store unique values
+* Learned to create an empty set using set()
+* Practiced using .add() to add elements to a set
+* Learned .remove() and .discard() methods
+* Learned how the in keyword checks whether an element exists
+* Created unique_categories.py
+* Used a for loop to extract categories from a list of dictionaries
+* Practiced accessing dictionary values using keys
+* Used a set to eliminate duplicate expense categories
+* Practiced removing an existing category using .discard()
+* Fixed spelling mistakes, incorrect dictionary keys and indentation errors
+* Tested the program successfully in VS Code
+* Revised functions, loops and dictionary concepts during coding practice
+
+
+
+7 November 2026 - Saturday
+
+* Revised Python CSV file handling
+* Practiced reading CSV files using csv.DictReader
+* Learned to convert CSV string values into integers
+* Filtered pending orders using loops and conditions
+* Calculated total pending order amounts
+* Stored pending orders in a separate list
+* Used csv.DictWriter to export filtered data
+* Created and tested day21_pending_orders.py
+* Saved filtered results to pending_orders.csv
+* Read the exported CSV file to verify its contents
+* Tested calculations with multiple pending orders
+* Used try-except to handle invalid amount values
+* Used continue to skip invalid CSV rows
+* Practiced FileNotFoundError handling
+* Fixed indentation and variable initialization errors
+* Completed the CSV processing exercise with guidance
 
 
 
