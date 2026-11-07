@@ -764,7 +764,7 @@ Used to save python data into a CSV file.
 def save_orders_to_csv(orders, filename):
     with open(filename, "w", newline="") as files:
         write = csv.DictWriter(
-            file,
+            files,
             fieldnames = ["name", "amount", "status"]
         )
  
@@ -822,7 +822,7 @@ Then:
 save_orders_to_csv(orders, "day21_orders.csv")
 
 the same function can also create another file:
-save_prders_to_csv(pending_orders, "pending_orders.csv")
+save_orders_to_csv(pending_orders, "pending_orders.csv")
 
 IMPORTANT:
 * open(filename, ...)
@@ -849,6 +849,24 @@ IMPORTANT:
 * try-> runs the code that may fail
 * except FileNotFoundError -> handles the missing-file error
 * return[] -> returns an empty list if the file is not found
+
+
+# Handling Invalid CSV Data
+CSV values are read as strings.
+INvalid numeric values can cause ValueError.
+
+try:
+    row["amount"] = int(row["amount"])
+
+except ValueError:
+    print("Invalid Amount")
+    continue
+
+IMPORTANT:
+* try attempts conversion.
+* except handles an invalid value.
+* continue skips the invalid row.
+* Valid rows can still be processed.
 
 
 # CSV Flow

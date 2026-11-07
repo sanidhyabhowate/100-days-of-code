@@ -1,0 +1,6 @@
+name,amount,status
+A,500,paid
+H,10000,paid
+K,65000,pending
+Test,200,pending
+Wrong,abcd,pending
