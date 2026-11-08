@@ -297,6 +297,26 @@ Day 21 - 17 August 2026
 
 
 
+### 8 November 2026 — Python Completion Sprint: Day 1
+
+**Topics covered:**
+- Built-in and custom Python modules
+- Imports, aliases and packages
+- File paths using pathlib
+- UTF-8 encoding
+- JSON: dump(), load(), dumps() and loads()
+
+**Practice:** Module imports, reusable functions,
+file operations and JSON handling.
+
+Exercises completed with guidance.
+Independent assessment pending.
+
+**Next:** Object-Oriented Programming (OOP).
+
+
+
+
 
 
 

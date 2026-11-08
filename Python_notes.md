@@ -888,3 +888,280 @@ IMPORTANT:
 * DictWriter -> Python data to CSV
 
 * DictReader -> CSV data to Python
+
+
+# Python Modules
+A module is a Python file containing reusable functions, variables or classes.
+Modules help  organize code and avoid repetition.
+
+
+EXAMPLE:
+import math
+
+print(math.sqrt(225))   --> 15.0
+print(math.pow(5, 3))   --> 125.0
+print(math.factorial(5)) --> 120
+
+
+IMPORTANT:
+* import allows us to use code from another module.
+* math.sqrt() calculates a square root.
+* math.pow(a, b) calculates a raise to power b.
+* math.factorial() calculates the factorial of an integer.
+
+
+# Different Import Methods
+import math
+from math import sqrt
+from math import sqrt as square_root
+
+-> Difference:
+* import math -> use math.sqrt(25)
+* from math import sqrt -> use sqrt(25)
+* as -> creates an alternative name(alias)
+
+
+# Creating Our Own Module
+A Python file can contain functions that are imported into another Python file.
+
+->calculations.py
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+-->main.py
+import calculations
+
+print(calculations.add(10, 5))
+print(calculations.subtract(25, 0))
+
+Output:
+15
+17
+
+IMPORTANT:
+The functions are written in calculation.py, but called from main.py.
+This helps separate reusable logic from the main program. 
+
+
+# Python Packages
+A package organizes related Python modules inside a folder.
+
+EXAMPLE STRUCTURE:
+
+project/
+├── main.py
+└── helpers/
+    ├── __init__.py
+    └── text_tools.py
+
+->text_tools.py
+def make_uppercase(text):
+    return text.upper().strip()
+
+->main.py
+from helpers.text_tools import make_uppercase
+
+print(make_uppercase("hello python))
+
+OUTPUT:
+HELLO PYTHON
+
+IMPORTANT:
+* Module -> A Pythone file.
+* Package -> A collection of related modules.
+* _init_.py is commonly used in regular Python packages.
+* helpers.text_tools refers to the module inside the package.
+
+
+# pycache
+Python may automatically create a folder named _pycache_ when importing modules.
+It contains compiled Python bytecode(.pyc) files.
+
+IMPORTANT:
+* Python manages these files automatically.
+* Deleting them does not delete the original .py source code.
+* They normally should not be uploaded to GitHub.
+
+.gitignore:
+__pycache__/
+*.pyc
+
+
+# UTF-8 Encoding
+UTF-8(Unicode Transformation Format - 8-bit) is a character encoding used to store and read text correctly.
+It supports English, Hindi, Marathi, Japanese, emojis and many other characters.
+
+EXAMPLE:
+with open("notes.txt", "w", encoding="utf-8") as file:
+    file.write("Hello नमस्ते")
+
+HERE:
+* encoding="utf-8" -> Specifices how text is converted into bytes.
+* "w" -> Opens the file in write mode.
+* file.write() -> Writes text into the file.
+
+IMPORTANT:
+* UTF-8 helpsprevent text encoding problems.
+* It is useful when files contain different languages or symbols.
+* Use encoding="UTF-8" when working with text files.
+* UTF-8 is an encoding, not encryption.
+
+
+# File Paths (pathlib)
+pathlib is a build-in Python module used to work with files and folder paths.
+
+EXAMPLE:
+from pathlib import Path
+
+base = Path(_file_).resolve().parent
+
+folder = base / "python_records"
+
+folder,mkdir(exist_ok=True)
+
+file = folder / "progress.txt"
+
+file.write_text("Python Day 1 completed-8/11/26, encoding="utf-8)
+
+print(file.read_text(encoding="utf-8))
+print(file.exists())
+
+OUTPUT:
+Python Day 1 completed-8/11/26
+True
+
+HERE:
+* Path() -> Creates a path object.
+* _file_ -> Represents the current python script's path.
+* .resolve() -> Resolves a path to an absolute path.
+* .parent -> gets the parent folder.
+* / -> Joins paths.
+* .mkdir() -> Creates a folder.
+* exist_ok=True -> Avoids an error if the folder already exists.
+* .write_text() -> Writes text into a file.
+* .read-text() -> reads text from a file.
+* .exists() -> Checks whether a file or folder exists.
+
+IMPORTANT:
+* _file_ has two underscores on each side.
+* .write_text() overwrites existing file contents.
+* pathlib helps manage paths across operating systems.
+
+
+# JSON
+JavaScript Object Notation.
+It is a text-based format used to store and exchange structured data.
+* JSON is commonly used in websites, APIs and AI applications.
+
+EXAMPLE:
+{
+    "name": "notebook",
+    :price": 50,
+    "available": true
+}
+
+IMPORTANT:
+JSON is similar to a python dictionary, but it has some differences.
+
+* Python                            JSON
+  True                               true
+  False                              false
+  None                               null
+  Dictionary                         object
+  List                               Array
+
+* FOUR JSON Functions
+Python provides a built-in module called json.
+
+1. json.dump() --> Python data to JSON file.
+2. json.load() --> JSON file to Python data.
+3. json.dumps() --> Python data to JSON string.
+4. json.loads() --> JSON string to Python data.
+
+IMPORTANT:
+The extra s stands for string.
+
+# Writing Data to a JSON File
+json.dump() saves Python data into JSON file.
+
+EXAMPLE:
+import json
+
+product = {
+    "name": "Notebook",
+    "price": 50,
+    "quantity": 3,
+    "available": True
+}
+with open("product.json", "w", encoding="utf-8") as file:
+     json.dump(product, file, indent=4)
+
+HERE:
+* json.dump() -> Writes Python data as JSON.
+* "w" -> Write mode.
+* indent=4 -> Makes JSON easier to read.
+* with open() -> Automatically closes the file.
+
+
+# Reading Data from a JSON FIle
+json.load() reads JSON data from a file and converts it into Python data.
+
+EXAMPLE:
+with open("product.json", "r", encoding="utf-8") as file:
+     loaded_product = json.load(file)
+
+print(loaded_product["name"])
+print(loaded_product["price"] * loaded_product["quantity"])
+print(loaded_product["available"])
+
+OUTPUT:
+Notebook
+150
+True
+
+IMPORTANT:
+* dump() -> Writes JSON to a file.
+* load() -> reads JSON from a file.
+* "r" -> Read mode.
+* Loaded JSON objects can be accessed using dictionary keys.
+
+
+# JSON Strings - dumps() and loads()
+* json.dumps() converts Python data into a JSON 
+string.
+* json.loads() converts JSON text back into Python data.
+
+EXAMPLE:
+import json
+
+student = {
+    "name": "Amit",
+    "age": 20,
+    "course": "Engineering"
+}
+json_text = json.dumps(student)
+
+print(type(json_text))
+
+converted = json.loads(json_text)
+
+print(converted["course"])
+print(type(converted))
+
+OUTPUT:
+<class 'str'>
+Engineering
+<class 'dict'>
+
+HERE:
+* dumps() -> Converts a Python dictionary into JSON text.
+* loads() -> Converts JSOn text back into a dictionary.
+* type() -> Checks the type of data.
+
+IMPORTANT:
+* dump() and load() work with files.
+* dumps() and loads() work with strings.
+* JSON is useful for transferring data between applications.
