@@ -1,7 +1,27 @@
-# 100-days-of-code
+# 100 Days of Code
 
-Documenting my coding journey — what I learn, build, practise, and improve along the way.
+I started learning Python on 21 June 2026. This repository contains my practice programs, notes, and a record of what I've learned along the way.
 
+I finished covering my planned introductory Python topics on 9 November 2026. I'm moving on to web development next, while continuing to practise Python through projects.
+
+## What I've learned
+
+- Python basics: variables, conditions, loops, functions, lists, dictionaries, and sets
+- Working with files, CSV, JSON, and `pathlib`
+- Object-oriented programming: classes, methods, and inheritance
+- HTTP APIs, `requests`, virtual environments, and managing dependencies
+- Git and GitHub for saving and tracking my work
+
+## Some practice programs
+
+- [Expense tracker](expense_tracker.py) — a menu-based program for adding expenses and calculating totals
+- [Order analyzer](day20_order_analyzer.py) — working with order data and CSV files
+- [Pending orders CSV filter](day21_pending_orders.py) — reading, filtering, and exporting CSV records
+- [API exercises](day3_api_practice/) — practising HTTP requests and API responses
+
+I've also kept my [Python notes](Python_notes.md) in this repository.
+
+## Learning log
 
 Day 1 - 21 June 2026
 
