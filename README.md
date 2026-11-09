@@ -14,12 +14,22 @@ I finished covering my planned introductory Python topics on 9 November 2026. I'
 
 ## Some practice programs
 
-- [Expense tracker](expense_tracker.py) — a menu-based program for adding expenses and calculating totals
-- [Order analyzer](day20_order_analyzer.py) — working with order data and CSV files
-- [Pending orders CSV filter](day21_pending_orders.py) — reading, filtering, and exporting CSV records
-- [API exercises](day3_api_practice/) — practising HTTP requests and API responses
+- [Expense tracker](mini_projects/expense_tracker.py) — a menu-based program for adding expenses and calculating totals
+- [Order analyzer](data_processing/day20_order_analyzer.py) — working with order data and CSV files
+- [Pending orders CSV filter](data_processing/day21_pending_orders.py) — reading, filtering, and exporting CSV records
+- [API exercises](api_practice/) — practising HTTP requests and API responses
 
 I've also kept my [Python notes](Python_notes.md) in this repository.
+
+## Repository layout
+
+- [basics](basics/) — Python fundamentals, functions, and introductory OOP exercises
+- [mini_projects](mini_projects/) — small programs such as the expense tracker and guessing game
+- [data_processing](data_processing/) — order analysis, CSV exercises, and example data
+- [module_practice](module_practice/) — imports, packages, file paths, and JSON
+- [api_practice](api_practice/) — HTTP requests and error-handling exercises
+
+The CSV scripts use relative file paths, so run them from inside the `data_processing` folder.
 
 ## Learning log
 
