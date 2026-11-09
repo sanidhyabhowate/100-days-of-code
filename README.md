@@ -1,101 +1,106 @@
 # 100-days-of-code
 
-Starting my coding journey
+Documenting my coding journey — what I learn, build, practise, and improve along the way.
+
 
 Day 1 - 21 June 2026
 
-* Created GitHub account
-* Created first repository
-* Installed VS Code
-* Learned basic Python syntax
-* Learned print()
-* Learned input()
-* Created Day1.py
-* Created age.py
-* Built a calculator
-* Uploaded files to GitHub
+- Created GitHub account
+- Created first repository
+- Installed VS Code
+- Learned basic Python syntax
+- Learned print()
+- Learned input()
+- Created Day1.py
+- Created age.py
+- Built a calculator
+- Uploaded files to GitHub
+
 
 Day 2 - 22 June 2026
 
-* Learned float()
-* Practiced user input and variables
-* Built rectangle area calculator
-* Built temperature converter
-* Learned if-else statements
-* Built voting eligibility checker
-* Built even-odd checker
-* Built number guessing game
-* Learned comparison operators and indentation
+- Learned float()
+- Practiced user input and variables
+- Built rectangle area calculator
+- Built temperature converter
+- Learned if-else statements
+- Built voting eligibility checker
+- Built even-odd checker
+- Built number guessing game
+- Learned comparison operators and indentation
+
 
 Day 3 - 23 June 2026
 
-* Learned for loops
-* Learned range()
-* Solved HackerRank Loops challenge
-* Built count down program
-* Built sum 1 to 10 program
-* Built multiplication table program
-* Built table of any number program
-* Updated Python notes
-* Practiced Git and GitHub workflow
+- Learned for loops
+- Learned range()
+- Solved HackerRank Loops challenge
+- Built count down program
+- Built sum 1 to 10 program
+- Built multiplication table program
+- Built table of any number program
+- Updated Python notes
+- Practiced Git and GitHub workflow
+
 
 Day 4 - 24 June 2026
 
-* Revised if-elif-else statements
-* Updated grade_checker.py with proper grade conditions
-* Practiced running the correct Python file from terminal
-* Learned about GitHub push rejection and remote changes
-* Used git pull --rebase before pushing
-* Updated README.md
-* Practiced Git and GitHub workflow
+- Revised if-elif-else statements
+- Updated grade_checker.py with proper grade conditions
+- Practiced running the correct Python file from terminal
+- Learned about GitHub push rejection and remote changes
+- Used git pull --rebase before pushing
+- Updated README.md
+- Practiced Git and GitHub workflow
+
 
 Day 5 - 25 June 2026
 
-* Revised previous Python files
-* Improved number_guessing_game.py
-* Added 5 chances limit
-* Added high and low hints
-* Practiced for loop with range()
-* Practiced debugging NameError
-* Fixed GitHub push rejection with guidance
-* Focused on understanding old code
+- Revised previous Python files
+- Improved number_guessing_game.py
+- Added 5 chances limit
+- Added high and low hints
+- Practiced for loop with range()
+- Practiced debugging NameError
+- Resolved a GitHub push rejection and synced the repository
+- Focused on understanding old code
 
 
 Day 6 - 26 June 2026
 
-* Learned Python lists
-* Created lists_practice.py
-* Learned how to store multiple values in a list
-* Learned how to access first item using index 0
-* Learned how to access last item using index -1
-* Learned append() to add new items
-* Practiced for loop with lists
-* Practiced running Python file from correct folder in VS Code terminal
-  
+- Learned Python lists
+- Created lists_practice.py
+- Learned how to store multiple values in a list
+- Learned how to access first item using index 0
+- Learned how to access last item using index -1
+- Learned append() to add new items
+- Practiced for loop with lists
+- Practiced running Python file from correct folder in VS Code terminal
+
 
 Day 7 - 27 June 2026
 
-* Learned basic error handling in Python
-* Created error_practice.py
-* Learned try and except
-* Learned ValueError
-* Practiced handling wrong input without crashing the program
-* Tested program with number input and text input
-  
+- Learned basic error handling in Python
+- Created error_practice.py
+- Learned try and except
+- Learned ValueError
+- Practiced handling wrong input without crashing the program
+- Tested program with number input and text input
+
 
 Break - 28 June 2026 to 2 July 2026
 
-Took a short planned break from coding to reset my routine.
-Did not start any new Python topic during this period.
-Used the time to plan the next phase of learning and decided to revise previous concepts before moving ahead.
+- Took a short planned break from coding to reset my routine.
+- Did not start any new Python topic during this period.
+- Used the time to plan the next phase of learning and decided to revise previous concepts before moving ahead.
 
 
 Day 8 - 3 July 2026
 
-* Revised previous Python files
-* Reviewed input(), int(), float(), and if-elif-else
-* Tested old files again in VS Code
-* Focused on understanding previous code properly before moving to new topics
+- Revised previous Python files
+- Reviewed input(), int(), float(), and if-elif-else
+- Tested old files again in VS Code
+- Focused on understanding previous code properly before moving to new topics
 
 
 Break - 4 July 2026 to 5 July 2026
@@ -103,203 +108,197 @@ Break - 4 July 2026 to 5 July 2026
 
 Day 9 - 6 July 2026
 
-* Revised previous Python concepts
-* Updated Python notes with while loop
-* Created while_loop_practice.py
-* Learned how while loop repeats code until a condition becomes false
-* Improved number_guessing_game.py
-* Added while loop with 5 chances
-* Added high and low hints
-* Added try-except to handle wrong input
-* Practiced debugging and running Python files from VS Code terminal
+- Revised previous Python concepts
+- Updated Python notes with while loop
+- Created while_loop_practice.py
+- Learned how while loop repeats code until a condition becomes false
+- Improved number_guessing_game.py
+- Added while loop with 5 chances
+- Added high and low hints
+- Added try-except to handle wrong input
+- Practiced debugging and running Python files from VS Code terminal
 
 
 Day 10 - 7 July 2026
 
-* Practiced while loop with lists
-* Created shopping_list.py
-* Built a menu-based shopping list manager
-* Used append() to add items
-* Used len() to check empty list
-* Used for loop to view list items
-* Used try-except to handle wrong input
-* Exit option working using break
-* Remove item feature kept as bonus
+- Practiced while loop with lists
+- Created shopping_list.py
+- Built a menu-based shopping list manager
+- Used append() to add items
+- Used len() to check empty list
+- Used for loop to view list items
+- Used try-except to handle wrong input
+- Exit option working using break
+- Remove item feature kept as bonus
 
 
 Day 11 - 8 July 2026
 
-* Did light coding work due to a busy day
-* Reviewed calculator.py
-* Added and reviewed comments in the file
-* Practiced Git status, add, commit, and push workflow
-* Faced GitHub push rejection because remote had new changes
-* Learned that git pull --rebase origin main is used before pushing when remote has changes
-* Synced local repository with GitHub
+- Did light coding work due to a busy day
+- Reviewed calculator.py
+- Added and reviewed comments in the file
+- Practiced Git status, add, commit, and push workflow
+- Faced GitHub push rejection because remote had new changes
+- Learned that git pull --rebase origin main is used before pushing when remote has changes
+- Synced local repository with GitHub
 
 
 Day 12 - 9 July 2026
 
-* Revised number_guessing_game.py
-* Refactored number guessing game using functions
-* Created get_guess() function for taking valid input
-* Created give_hint() function for high and low hints
-* Created play_game() function to control the full game
-* Used random.randint() to generate a random number
-* Practiced input validation using try-except
-* Tested the program successfully in VS Code terminal
+- Revised number_guessing_game.py
+- Refactored number guessing game using functions
+- Created get_guess() function for taking valid input
+- Created give_hint() function for high and low hints
+- Created play_game() function to control the full game
+- Used random.randint() to generate a random number
+- Practiced input validation using try-except
+- Tested the program successfully in VS Code terminal
 
 
 Day 13 - 10 July 2026
 
-* Worked on improving GitHub profile presentation
-* Created a technology-themed GitHub banner
-* Used Python, Git, GitHub, and problem-solving as the main theme
-* Added the message “Turning Curiosity Into Code”
-* Focused on making the coding profile cleaner and more professional
-* Did not start a new Python topic
+- Worked on improving GitHub profile presentation
+- Created a technology-themed GitHub banner
+- Used Python, Git, GitHub, and problem-solving as the main theme
+- Added the message “Turning Curiosity Into Code”
+- Focused on making the coding profile cleaner and more professional
+- Did not start a new Python topic
 
 
 Day 14 - 11 July 2026
 
-* Created expense_tracker.py
-* Built a menu-based expense tracker
-* Used a list to store expenses
-* Used dictionaries to store expense names and amounts
-* Used while True to keep the menu running
-* Used nested if-else statements
-* Used a for loop to display expenses
-* Calculated the total using +=
-* Formatted amounts using .2f
-* Practiced fixing indentation and syntax errors
-* Tested add expense, show expenses, show total, invalid choice, and exit options successfully
+- Created expense_tracker.py
+- Built a menu-based expense tracker
+- Used a list to store expenses
+- Used dictionaries to store expense names and amounts
+- Used while True to keep the menu running
+- Used nested if-else statements
+- Used a for loop to display expenses
+- Calculated the total using +=
+- Formatted amounts using .2f
+- Practiced fixing indentation and syntax errors
+- Tested add expense, show expenses, show total, invalid choice, and exit options successfully
 
 
 Day 15 - 13 July 2026
 
-* Completed the first fortnightly Python quiz
-* Scored 10 out of 25 marks
-* Answered 7 out of 15 questions correctly
-* Reviewed mistakes related to float(input())
-* Revised even-odd conditions and if-else statements
-* Reviewed append() and Python lists
-* Revised for loops and range()
-* Reviewed basic Git and GitHub commands
-* Identified the topics that need more practice
-* Did not begin a new Python topic
-  
+- Completed the first fortnightly Python quiz
+- Scored 10 out of 25 marks
+- Answered 7 out of 15 questions correctly
+- Reviewed mistakes related to float(input())
+- Revised even-odd conditions and if-else statements
+- Reviewed append() and Python lists
+- Revised for loops and range()
+- Reviewed basic Git and GitHub commands
+- Identified the topics that need more practice
+- Did not begin a new Python topic
+
 
 Day 16 - 14 July 2026
 
-* Created expense_entry.py
-* Asked the user for the expense name, category, and amount
-* Used float() to accept whole numbers and decimal amounts
-* Used try and except to handle invalid amount input
-* Handled ValueError without crashing the program
-* Displayed all entered expense details clearly
-* Tested the program using valid and invalid inputs
-* Fixed a print() syntax mistake
-* Practiced explaining the program logic in my own words
+- Created expense_entry.py
+- Asked the user for the expense name, category, and amount
+- Used float() to accept whole numbers and decimal amounts
+- Used try and except to handle invalid amount input
+- Handled ValueError without crashing the program
+- Displayed all entered expense details clearly
+- Tested the program using valid and invalid inputs
+- Fixed a print() syntax mistake
+- Practiced explaining the program logic in my own words
 
 
- Day 17 - 10 August 2026
- 
-* Restarted Python practice after a one-month break.
-* Practiced if/elif/else, for loops, range(), modulo, and basic problem solving.
-* Built small from-scratch exercises for age eligibility, multiplication tables, and even/odd + positive/negative/zero checking.
-* Focused on rebuilding coding recall and confidence without copying code.
+Day 17 - 10 August 2026
+
+- Restarted Python practice after a one-month break.
+- Practiced if/elif/else, for loops, range(), modulo, and basic problem solving.
+- Built small from-scratch exercises for age eligibility, multiplication tables, and even/odd + positive/negative/zero checking.
+- Focused on rebuilding coding recall and confidence without copying code.
 
 
 Day 18 - 11 August 2026
 
-* Learned how to create and call functions using def.
-* Practiced functions with parameters and multiple parameters.
-* Learned about local variables inside functions.
-* Learned how return sends a value back from a function.
-* Practiced the difference between print() and return.
-* Used if-else inside functions.
-* Built function exercises for squares, calculations, totals, discounts, and division-by-zero handling.
+- Learned how to create and call functions using def.
+- Practiced functions with parameters and multiple parameters.
+- Learned about local variables inside functions.
+- Learned how return sends a value back from a function.
+- Practiced the difference between print() and return.
+- Used if-else inside functions.
+- Built function exercises for squares, calculations, totals, discounts, and division-by-zero handling.
 
 
 Day 19 - 12 August 2026
 
-* Practiced using functions together with for loops.
-* Passed values from loops into function parameters.
-* Used return values inside repeated calculations.
-* Practiced functions with one and multiple parameters.
-* Built even/odd, square, larger-number and purchase-total exercises.
-* Learned how to keep a running total using +=.
-* Created a small Streamlit purchase calculator as bonus practice.
+- Practiced using functions together with for loops.
+- Passed values from loops into function parameters.
+- Used return values inside repeated calculations.
+- Practiced functions with one and multiple parameters.
+- Built even/odd, square, larger-number and purchase-total exercises.
+- Learned how to keep a running total using +=.
+- Created a small Streamlit purchase calculator as bonus practice.
 
 
 Day 20 - 13 August 2026
 
-* Built an order analyzer using a list of dictionaries.
-* Practiced functions for total order value, paid/pending counts, and revenue by status.
-* Added input normalization using `.strip().lower()`.
-* Added `try/except` validation so invalid amounts do not crash the program.
-* Built logic to find the largest order.
-* Learned basic CSV file handling with Python’s `csv` module.
-* Exported order data to `orders.csv` and opened it successfully in Excel.
+- Built an order analyzer using a list of dictionaries.
+- Practiced functions for total order value, paid/pending counts, and revenue by status.
+- Added input normalization using .strip().lower().
+- Added try/except validation so invalid amounts do not crash the program.
+- Built logic to find the largest order.
+- Learned basic CSV file handling with Python’s csv module.
+- Exported order data to orders.csv and opened it successfully in Excel.
 
 
 Day 21 - 17 August 2026
 
-* Rebuilt CSV writing with Python for additional practice.
-* Learned to read CSV files back into Python using DictReader.
-* Converted CSV string values back to integers before calculations.
-* Practiced filtering loaded order data.
-* Made CSV save/load functions reusable using filename parameters.
-* Practiced handling missing files with FileNotFoundError.
-* Revised and expanded Python notes from recent lessons.
-* CSV is still a practice topic and not yet fully independent.
+- Rebuilt CSV writing with Python for additional practice.
+- Learned to read CSV files back into Python using DictReader.
+- Converted CSV string values back to integers before calculations.
+- Practiced filtering loaded order data.
+- Made CSV save/load functions reusable using filename parameters.
+- Practiced handling missing files with FileNotFoundError.
+- Revised and expanded Python notes from recent lessons.
+- Continued practising CSV data processing and reusable file-handling functions.
 
 
+26 October 2026 
 
-26 October 2026 - Monday
-
-* Learned Python sets and how they store unique values
-* Learned to create an empty set using set()
-* Practiced using .add() to add elements to a set
-* Learned .remove() and .discard() methods
-* Learned how the in keyword checks whether an element exists
-* Created unique_categories.py
-* Used a for loop to extract categories from a list of dictionaries
-* Practiced accessing dictionary values using keys
-* Used a set to eliminate duplicate expense categories
-* Practiced removing an existing category using .discard()
-* Fixed spelling mistakes, incorrect dictionary keys and indentation errors
-* Tested the program successfully in VS Code
-* Revised functions, loops and dictionary concepts during coding practice
-
+- Learned Python sets and how they store unique values
+- Learned to create an empty set using set()
+- Practiced using .add() to add elements to a set
+- Learned .remove() and .discard() methods
+- Learned how the in keyword checks whether an element exists
+- Created unique_categories.py
+- Used a for loop to extract categories from a list of dictionaries
+- Practiced accessing dictionary values using keys
+- Used a set to eliminate duplicate expense categories
+- Practiced removing an existing category using .discard()
+- Fixed spelling mistakes, incorrect dictionary keys and indentation errors
+- Tested the program successfully in VS Code
+- Revised functions, loops and dictionary concepts during coding practice
 
 
+7 November 2026 
 
-7 November 2026 - Saturday
-
-* Revised Python CSV file handling
-* Practiced reading CSV files using csv.DictReader
-* Learned to convert CSV string values into integers
-* Filtered pending orders using loops and conditions
-* Calculated total pending order amounts
-* Stored pending orders in a separate list
-* Used csv.DictWriter to export filtered data
-* Created and tested day21_pending_orders.py
-* Saved filtered results to pending_orders.csv
-* Read the exported CSV file to verify its contents
-* Tested calculations with multiple pending orders
-* Used try-except to handle invalid amount values
-* Used continue to skip invalid CSV rows
-* Practiced FileNotFoundError handling
-* Fixed indentation and variable initialization errors
-* Completed the CSV processing exercise with guidance
-
+- Revised Python CSV file handling
+- Practiced reading CSV files using csv.DictReader
+- Learned to convert CSV string values into integers
+- Filtered pending orders using loops and conditions
+- Calculated total pending order amounts
+- Stored pending orders in a separate list
+- Used csv.DictWriter to export filtered data
+- Created and tested day21_pending_orders.py
+- Saved filtered results to pending_orders.csv
+- Read the exported CSV file to verify its contents
+- Tested calculations with multiple pending orders
+- Used try-except to handle invalid amount values
+- Used continue to skip invalid CSV rows
+- Practiced FileNotFoundError handling
+- Fixed indentation and variable initialization errors
+- Completed the CSV filtering and export exercise
 
 
+8 November 2026 
 
-### 8 November 2026 — Python Completion Sprint: Day 1
-
-**Topics covered:**
 - Built-in and custom Python modules
 - Imports, aliases and packages
 - File paths using pathlib
@@ -307,39 +306,41 @@ Day 21 - 17 August 2026
 - JSON: dump(), load(), dumps() and loads()
 
 
+9 November 2026
 
-### 9 November 2026 — Python Completion Sprint: Day 2 (OOP)
-
-**Topics learned and practised:**
 - Object-Oriented Programming (OOP)
 - Classes, objects and attributes
-- `self` and `__init__()`
+- self and __init__()
 - Creating and calling methods
 - Local variables vs instance attributes
 - Inheritance (parent and child classes)
 - Adding methods to child classes
-- Using `super()` for parent initialization
+- Using super() for parent initialization
 - Introduction to the four principles of OOP
-
-**Practice completed:**
 - Created Student and Product classes
 - Initialized objects with different attributes
 - Built methods to calculate totals and discounts
 - Created a DigitalProduct class using inheritance
 - Added child-specific methods
-- Used `super()` to extend parent initialization
+- Used super() to extend parent initialization
 - Practised organizing related data and functionality into classes.
+- pip, package installation and version inspection
+- Virtual environments (venv) and dependency isolation
+- Introduction to datetime and random
+- API URLs, endpoints and HTTP methods: GET, POST, PUT, PATCH, DELETE
+- JSON requests and responses, HTTP status codes and API error handling
+- requirements.txt and reproducible dependencies
+- Difference between request timeout and website refresh interval
+- Created and verified an isolated Python 3.14.6 environment
+- Installed and imported requests==2.34.2 inside .venv
+- Retrieved data using GET and submitted JSON using POST
+- Practised PUT and PATCH updates
+- Handled an HTTP error for a missing API resource
+- Verified installing dependencies from requirements.txt
 
 
+**Python Fundamentals — Completed (9 November 2026)**
 
+Completed my planned Python fundamentals, covering core syntax, data structures, functions, file handling, JSON, OOP, and introductory API development.
 
-
-
-
-
- 
-
-
-
-
-
+**Next Steps:** Moving on to web development with HTML, CSS, and JavaScript, while continuing to practise Python through projects and problem-solving.

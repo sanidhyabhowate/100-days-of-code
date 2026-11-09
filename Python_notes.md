@@ -1400,3 +1400,157 @@ Classes, methods and inheritance are practised.
 * Confusing local variables with self attributes.
 * Misspelling _init_ .
 * Forgetting super()._init_() when parent initialization is required.
+
+
+# pip (Python Package Installer)
+pip is used to install and manage external Python packages.
+
+EXAMPLE:
+python -m pip install requests
+python -m pip list
+python -m pip show requests
+
+IMPORTANT:
+* Python's standard library includes modules such as math, json and pathlib.
+* External packages such as requests may need installation.
+* PyPI is a public repository of Python packages.
+
+
+# Virtual Environments (venv)
+A virtual environment provides an isolated Python environment for a project.
+
+EXAMPLE (Windows PowerShell):
+
+python -m venv .venv
+.\.venv\Scripts\python.exe --version
+.\.venv\Scripts\python.exe -m pip install requests
+
+IMPORTANT:
+* Different projects can have different packages.
+* .venv stores the local Python environment.
+* Add .venv/ to .gitignore.
+* Do not upload virtual environments to Github.
+
+
+# Useful Standard Libraries
+- datetime is used for dates and times.
+
+from datetime import datetime
+
+print(datetime.now())
+
+- random is used to generate random values.
+
+import random
+
+print(random.randint(1, 10))
+
+
+# API (Application Programming Interface)
+An API allows software applications to communicate through defined interfaces.
+A web API can receive HTTP requests and return structured information, commonly JSON.
+
+EXAMPLE URL:
+
+https://jsonplaceholder.typicode.com/posts/1
+
+HERE:
+* https:// -> Protocol.
+* jsonplaceholder.typicode.com -> Domain.
+* /posts -> Resource path.
+* /1 -> Resource ID.
+
+An API endpoint identifies a resource or operation exposed by an API.
+
+
+# HTTP Request Methods
+* GET -> Retrieve information.
+* POST -> Submit or create information.
+* PUT -> Replace a resource.
+* PATCH -> Partially update a resource.
+* DELETE -> request resource deletion.
+
+EXAMPLE:
+
+import requests
+
+url = "https://jsonplaceholder.typicode.com/posts/1"
+
+response = requests.get(url, timeout=10)
+response.raise_for_status()
+
+data = response.json()
+
+print(data["title"])
+
+HERE:
+* requests.get() -> Sends a GET request,
+* timeout=10 -> Limits how long an API request waits for connection or response activity, measured in seconds. It does not control the website's refresh rate.
+* raise_for_status() -> Raises an exception for unsuccessful HTTP status codes.
+* response.json() -> Parses JSON into Python data.
+
+
+# Sending JSON Data
+EXAMPLE:
+
+new_post = {
+    "title": "My Python Journey",
+    "body": "Learning APIs",
+    "userId": 5
+}
+
+response = requests.post(url, json=new_post, timeout=10)
+
+json=new_post sends the dictionary as JSON.
+
+PUT and PATCH use similar syntax with requests.put() and requests.patch().
+
+
+# HTTP Status Codes
+* 200 -> Successful request.
+* 201 -> Resource created.
+* 204 -> Successful request with no response body.
+* 400 -> Bad request.
+* 401 -> Authentication required or invalid.
+* 403 -> Forbidden.
+* 404 -> Resource not found.
+* 500 -> Server error.
+
+
+# API Error Handling
+EXAMPLE:
+
+try:
+    response = requests.get(url, timeout=10)
+    response.raise_for_status()
+
+except requests.exceptions.HTTPError:
+    print("HTTP request failed.")
+
+except requests.exceptions.Timeout:
+    print("Request timed out.")
+
+except requests.exceptions.ConnectionError:
+    print("Connection failed.")
+
+IMPORTANT:
+API requests may fail due to network problems, servor errors or invalid requests.
+Use timeouts and exception handling.
+
+
+# requirements.txt
+A requirements.txt file records the external packages required by a Python project.
+
+EXAMPLE:
+request==2.34.2
+
+Install packages using:
+python -m pip install -r requirements.txt
+
+IMPORTANT:
+* == specifies an exact package version.
+* pip freeze lists installed package versions.
+* Upload requirement.txt not .venv.
+* Never publish API keys or passwords in project files.
+
+
