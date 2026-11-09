@@ -215,7 +215,7 @@ When chances become 0,the loop stops
 IMPORTANT:
 If a while loop never stops, press Ctrl + C in terminal to stop the program.
 
- 
+
 # Lists
 A list is used to store multiple values in one variable.
 
@@ -631,7 +631,7 @@ def check_even_odd(number):
        return "Even"
     else:
         return "Odd"
-    
+
 for i in range(3):
     number = int(input("Choose a number:"))
     result = check_even_odd(number)
@@ -655,7 +655,7 @@ for i in range(3):
 print("Grand Total:", grand_total)
 
 IMPORTANT:
-grand_total += amount   
+grand_total += amount
 Means,
 grand_total = grand_total + amount
 
@@ -767,7 +767,7 @@ def save_orders_to_csv(orders, filename):
             files,
             fieldnames = ["name", "amount", "status"]
         )
- 
+
         write.writeheader()
         write.writerows(orders)
 HERE:
@@ -943,7 +943,7 @@ Output:
 
 IMPORTANT:
 The functions are written in calculation.py, but called from main.py.
-This helps separate reusable logic from the main program. 
+This helps separate reusable logic from the main program.
 
 
 # Python Packages
@@ -1130,7 +1130,7 @@ IMPORTANT:
 
 
 # JSON Strings - dumps() and loads()
-* json.dumps() converts Python data into a JSON 
+* json.dumps() converts Python data into a JSON
 string.
 * json.loads() converts JSON text back into Python data.
 
@@ -1165,3 +1165,238 @@ IMPORTANT:
 * dump() and load() work with files.
 * dumps() and loads() work with strings.
 * JSON is useful for transferring data between applications.
+
+
+# OOP (Object-Oriented Programming)
+OOP is a programming approach that organizes related data and functions into objects.
+OOP helps organize programs, reuse code and manage larger applications.
+
+IMPORTANT:
+* OOP -> Objects-Oriented Programming.
+* OOPS -> Another commonly used term for the same concept.
+* Class -> Blueprint for creating objects.
+* Object -> An instance created from a class.
+
+
+# Classes and Objects
+A class defines the structure of an object.
+An object is created using that class.
+
+EXAMPLE:
+class Student:
+    pass
+
+student1 = Student()
+
+student1.name = "Rahul"
+student1.age = 19
+
+print(student1.name)
+print(student1.age)
+
+OUTPUT:
+Rahul
+19
+
+HERE:
+* class -> Defines a class.
+* student -> Class name.
+* pass -> Placeholder for an empty class.
+* Student() -> Creates an object.
+* student1.name -> Attribute blonging to the object.
+
+
+# Attriubutes and self
+Attributes are variable that belong to an object or class.
+self refers to the current object inside an instance method.
+
+EXAMPLE:
+class Student:
+    def _init_(self,name,age):
+       self.name = name
+       self.age = age
+
+student1 = Student("Rahul", 19)
+student2 = Student("Amit", 20)
+
+print(student1.name)
+print(student2.name)
+
+OUTPUT:
+Rahul
+Amit
+
+IMPORTANT:
+* self.name stores the name of a particular object.
+* Different objects can contain different values.
+* self is conventionally the first parameter of an instance method.
+* When calling student1.name, we access an attribute.
+
+
+# init() Method
+_init_() is a special method to initialize an object's attributes.
+It runs automatically during normal object creation.
+
+EXAMPLE:
+class Product:
+    def _init_(self, name, price):
+       self.name = name
+       self.price = price
+
+product1 = Product("Notebook", 50)
+
+HERE:
+* _init_() -> initializes object attributes.
+* self -> Refers to the current object.
+* name, price -> Parameters.
+* self.name = name -> Stores the name in the object.
+
+IMPORTANT:
+_init_ has two underscores, before and after init.
+
+
+# Methods in OOP
+A method  is a function defined inside a class.
+Methods allow objects to perform actions and calculations.
+
+EXAMPLE:
+class Product:
+    def _init_(self, name, price, quantity):
+       self.name = name
+       self.price = price
+       self.quantity = quantity
+
+    def calculate_total(self):
+        return self.price * self.quantity
+
+product1 = Product("Notebook", 50, 3)
+
+print(product1.calculate_total())
+
+OUTPUT:
+150
+
+HERE:
+* calculate_total() -> Method.
+* self.price -> Accesses the object's price.
+* self.quantity -> Accesses its quantity.
+* product1.calculate_total() -> Calls the method.
+
+
+# Calling One Method from Another
+A method can call another method belonging to the same object.
+
+EXAMPLE:
+def discounted_price(self):
+    total = self.calculate_total()
+    discount = total * 10 / 100
+    return total - discount
+
+HERE:
+* self.calculate_total() -> Calls another method of the object.
+* total -> local variable.
+
+IMPORTANT:
+* self.discounted_total would be an instance attribute.
+* % in Python means remainder, not percentage.
+
+
+# Inheritance
+INheritance allows a child class to reuse or extend the attributes and methods of a parent class.
+
+EXAMPLE:
+class Product:
+    def _init_(self, name, price):
+       self.name = name
+       self.price = price
+
+    def show_details(self):
+        print(self.name, self.price)
+
+class DigitalProduct(Product):
+    pass
+
+product1 = DigitalProduct("Python Ebook", 200)
+
+product1.show_details()
+
+OUTPUT:
+Python Ebook 200
+
+HERE:
+* Product -> Parent class.
+* DigitalProduct -> Child class.
+* DigitalProduct(Product) -> Establishes inheritance.
+* pass -> no additional code in the child class.
+* The child class inherits the parent's functionality.
+
+
+# Child Class Methods
+A child class can also contain its own methods.
+
+EXAMPLE:
+A child class can also contain its own methods.
+
+EXAMPLE:
+class DigitalProduct(Product):
+    def download(self):
+        print("Downloading", self.name)
+
+    def file_info(self):
+        print(self.name, "is available as a digital file.")
+
+IMPORTANT:
+A child class can use both inherited methods and its own methods.
+
+
+# super() in Python
+super() allows a child class to access methods from its parent class according to Python's inheritance order.
+It is commonly used to call the parent's _init_() method.
+
+EXAMPLE:
+class Product:
+    def __init__(self, name, price):
+        self.name = name
+        self.price = price
+
+
+class DigitalProduct(Product):
+    def __init__(self, name, price, file_size):
+        super().__init__(name, price)
+        self.file_size = file_size
+
+
+product1 = DigitalProduct("Python Course", 500, 250)
+
+print(product1.name)
+print(product1.price)
+print(product1.file_size)
+
+OUTPUT:
+Python Course
+500
+250
+
+HERE:
+* super()._init_(name, price) -> Calls the parent initialization method.
+* self.file.size -> New attribute belonging to the child object.
+* The child reuses the parent's initialization code.
+
+
+# Four MAin OOP Priniciples
+1. Encapsulation --> Grouping related data and methods together, with access control when needed.
+2. Inheritance --> Reusing and extending functionality from another class.
+3. Polymorphism --> Different objects can respond differently to the same method or interface.
+4. Abstraction --> Hiding implementation details and exposing essential functionality.
+
+These are introductory definitions.
+Classes, methods and inheritance are practised.
+
+
+# Common OOP Mistakes
+* Writing self outside an instance method.
+* Incorrect indentation inside classes and methods.
+* Forgetting to call a method using ()
+* Confusing local variables with self attributes.
+* Misspelling _init_ .
+* Forgetting super()._init_() when parent initialization is required.

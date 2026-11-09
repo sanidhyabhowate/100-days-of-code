@@ -306,14 +306,29 @@ Day 21 - 17 August 2026
 - UTF-8 encoding
 - JSON: dump(), load(), dumps() and loads()
 
-**Practice:** Module imports, reusable functions,
-file operations and JSON handling.
 
-Exercises completed with guidance.
-Independent assessment pending.
 
-**Next:** Object-Oriented Programming (OOP).
+### 9 November 2026 — Python Completion Sprint: Day 2 (OOP)
 
+**Topics learned and practised:**
+- Object-Oriented Programming (OOP)
+- Classes, objects and attributes
+- `self` and `__init__()`
+- Creating and calling methods
+- Local variables vs instance attributes
+- Inheritance (parent and child classes)
+- Adding methods to child classes
+- Using `super()` for parent initialization
+- Introduction to the four principles of OOP
+
+**Practice completed:**
+- Created Student and Product classes
+- Initialized objects with different attributes
+- Built methods to calculate totals and discounts
+- Created a DigitalProduct class using inheritance
+- Added child-specific methods
+- Used `super()` to extend parent initialization
+- Practised organizing related data and functionality into classes.
 
 
 
